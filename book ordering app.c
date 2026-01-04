@@ -27,6 +27,8 @@ scanf("%d", &orderQuantity);
 	printf("No discount price is:%.2f TL\n", noDiscountPrice);
 	discountPrice = orderQuantity * bookPrice * discountRate;
 	printf("Discount price is: %.2f TL\n", discountPrice);
+	sum = noDiscountPrice - discountPrice;
+	printf("Total:%.2f TL\n",sum);
 	
 	
 	
